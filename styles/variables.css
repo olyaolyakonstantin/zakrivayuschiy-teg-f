@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'Press Start 2P', fantasy;
+    --card-title-font-weight: 800; 
+    --card-text-font-weight: 400;  
+
+    --bg-color: white;
+
+    --gradient: repeating-linear-gradient(to right, #d3d3d3 0px, transparent 2px), 
+                repeating-linear-gradient(to bottom, #d3d3d3 0px, transparent 2px), 
+                linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+    --block-width: clamp(1rem, -0.0563rem + 4.5070vw, 4rem);
+    --heart-contour: black;
+    --animation-fill-color: red;
+}
