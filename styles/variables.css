@@ -2,16 +2,17 @@
 :root {
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'Press Start 2P', fantasy;
-    --card-title-font-weight: 800; 
-    --card-text-font-weight: 400;  
-
+    --card-title-font-weight: 715; 
+    --card-text-font-weight: 410;  
     --bg-color: white;
-
-    --gradient: repeating-linear-gradient(to right, #d3d3d3 0px, transparent 2px), 
-                repeating-linear-gradient(to bottom, #d3d3d3 0px, transparent 2px), 
+    --gradient: repeating-linear-gradient(to right, #d3d3d3, transparent 2px), 
+                repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px), 
                 linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-
     --block-width: clamp(1rem, -0.0563rem + 4.5070vw, 4rem);
     --heart-contour: black;
     --animation-fill-color: red;
+
+    --btn-hover-color: #fff;
+    --label-border-color: #fff;
+    
 }
